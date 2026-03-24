@@ -1,4 +1,5 @@
 const FANTECH_MODELS = {
+    "xinput":{}
     "0e10": { 
         name: "SHOOTER GP13", 
         img: "https://fantechworld.com/wp-content/uploads/2021/04/shooter-gp13-1.png",
