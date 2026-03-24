@@ -16,6 +16,7 @@ let controllerIndex = null;
 let currentLayout = [];
 
 window.addEventListener("gamepadconnected", (e) => {
+    console.log("connected:", e.gamepad.id)
     controllerIndex = e.gamepad.index;
     document.getElementById("status").style.display = "none";
     document.getElementById("controller-display").classList.remove("hidden");
